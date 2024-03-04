@@ -16,41 +16,41 @@ public class Dobasok {
             hanyszor = Integer.parseInt(sc.nextLine());
             
             }
-            int[] dobas = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+            int[] dobas = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
             for (int i = 0; i < hanyszor; i++) {
                 int kocka = rd.nextInt(2, 13);
                 if(kocka == 2){
-                    dobas[1] ++;
-                }
-                else if(kocka == 3){
                     dobas[2] ++;
                 }
-                else if(kocka == 4){
+                else if(kocka == 3){
                     dobas[3] ++;
                 }
-                else if(kocka == 5){
+                else if(kocka == 4){
                     dobas[4] ++;
                 }
-                else if(kocka == 6){
+                else if(kocka == 5){
                     dobas[5] ++;
                 }
-                else if(kocka == 7){
+                else if(kocka == 6){
                     dobas[6] ++;
                 }
-                else if(kocka == 8){
+                else if(kocka == 7){
                     dobas[7] ++;
                 }
-                else if(kocka == 9){
+                else if(kocka == 8){
                     dobas[8] ++;
                 }
-                else if(kocka == 10){
+                else if(kocka == 9){
                     dobas[9] ++;
                 }
-                else if(kocka == 11){
+                else if(kocka == 10){
                     dobas[10] ++;
                 }
-                else if(kocka == 12){
+                else if(kocka == 11){
                     dobas[11] ++;
+                }
+                else if(kocka == 12){
+                    dobas[12] ++;
                 }
             }
             
